@@ -6,24 +6,30 @@
   <style type="text/css">
    TABLE {
     width: 900px;
+    line-height: 200%;
     background: #FFFAFA; 
     border: 1px solid #DCDCDC; 
     border-collapse: collapse; 
    }
    TD, TH {
     padding: 3px; 
+
    }
    TD {
     text-align: left; 
+        border: 1px solid white;
+
 
    }
    TH {
     background: #FFFAFA; 
     color: black; 
     text-align: left; 
+
    }
    TR.even {
     background: white; 
+
    }
    .la {
     text-align: left; 
@@ -33,7 +39,7 @@
  <body>
   <table>
    <tr>
-    <th>Table header</th><th>Table header</th><th>Table header</th><th>Table header</th>
+    <th class="la">Table header</th><th>Table header</th><th>Table header</th><th>Table header</th>
    </tr>
    <tr class="even">
     <td class="la">Content goes here</td><td>This is longer content Donec id edit non porta gravida at ege metus</td><td>Content goes here</td><td>Content goes here</td>
